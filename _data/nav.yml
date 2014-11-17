@@ -1,0 +1,16 @@
+- href: http://demo.btspider.net/
+  icon: fa fa-desktop
+  title: 演示网站
+  newblank: true
+
+- href: /blog/2014/11/24/btspider-desc.html
+  icon: fa fa-truck
+  title: 程序介绍
+
+- href: /blog/2014/11/24/btspider-man.html
+  icon: fa fa-archive
+  title: 维护手册
+
+- href: "tencent://message/?uin=2019586798"
+  icon: fa fa-qq
+  title: 联系我们

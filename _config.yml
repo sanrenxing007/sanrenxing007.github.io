@@ -1,0 +1,28 @@
+markdown: redcarpet
+highlighter: pygments
+permalink: blog/:year/:month/:day/:title.html
+paginate: 5
+paginate_path: page/:num
+encoding: "utf-8"
+future: true
+lsi: false
+safe: true
+
+redcarpet:
+    extensions:
+        - with_toc_data
+        - hard_wrap
+        - no_intra_emphasis
+        - tables
+        - fenced_code_blocks
+        - autolink
+
+blog:
+    name: BTspider官网 # 博客名称
+    description:  # 博客描述
+    title: BTspider官网 # 网页标题
+    url: http://www.btspider.net # 博客地址
+
+author:
+    name: BTspider官网 # 作者名称
+    logo: /res/img/logo.png # logo地址
