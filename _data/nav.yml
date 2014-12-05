@@ -7,9 +7,9 @@
   icon: fa fa-truck
   title: 程序介绍
 
-- href: /blog/2014/11/24/btspider-man.html
-  icon: fa fa-archive
-  title: 维护手册
+- href: /blog/2014/12/06/btspider-admin.html
+  icon: fa fa-eye
+  title: 后台预览
 
 - href: /blog/2014/11/26/btspider-log.html
   icon: fa fa-calendar
