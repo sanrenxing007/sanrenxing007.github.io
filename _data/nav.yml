@@ -18,3 +18,7 @@
 - href: "tencent://message/?uin=1585893756"
   icon: fa fa-qq
   title: 联系我们
+
+- href: "mailto:fanpei91@gmail.com"
+  icon: fa fa-at
+  title: Contact
