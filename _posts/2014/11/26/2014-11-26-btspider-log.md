@@ -4,6 +4,7 @@ title : BTspider更新日志
 category : 程序
 date : 2014-11-26 19:40
 ---
+2014-12-24-v1.1.4: 降低40%带宽消耗; 降低10%CPU消耗; (spider)
 2014-12-16-v1.1.3: 增加robots.txt和sitemap.xml支持; (web)
 2014-12-13-v1.1.2: 大大降低DHT的带宽占用; 大大降低BT的CPU占用; (web+spider)
 2014-12-09-v1.1.1: 小bug修复; 增加"统计代码"功能; DHT爬虫端口回收利用; (web+spider)
