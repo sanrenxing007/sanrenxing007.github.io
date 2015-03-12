@@ -1,0 +1,3 @@
+User-Agent: *
+
+Sitemap: http://www.btspider.cc/sitemap.txt

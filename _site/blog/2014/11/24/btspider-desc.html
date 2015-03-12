@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="description" content="BTspider官网">
+  <meta name="author" content="BTspider官网">
+  <meta name="keywords" content="BTspider介绍, BTspider官网, BTspider介绍 - BTspider官网">
+  <title>BTspider介绍 - BTspider官网</title>
+  <link rel="icon" href="/res/img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/res/img/favicon.ico" type="image/x-icon">
+  <link rel="canonical" href="http://www.btspider.cc/blog/2014/11/24/btspider-desc.html">
+  <link rel="stylesheet" href="/res/css/public.css">
+  <link rel="stylesheet" href="/res/css/life.css">
+  <link rel="stylesheet" href="/res/css/pygments.css">
+</head>
+<body>
+  <div class="main">
+    <div class="title">BTspider介绍</div>
+    <div class="post-info"><i class="fa fa-clock-o"></i>&nbsp;2014-11-24
+    15:30 转载请注明出处：<a  title="BTspider官网" href="http://www.btspider.cc">http://www.btspider.cc</a> </div>
+    <div class="content">
+    <h1 id="程序架构">程序架构</h1>
+
+<p>BTspider磁力搜索程序基于DHT + BT协议开发（即P2P技术），并不像采集国外种子站程序或小偷程序面临被封杀风险。</p>
+
+<p>程序由爬虫+网站两部件组成，运行环境为Linux，采用MySQL存储数据，使用Redis作为队列。用Redis做队列，可以让爬虫在多个服务器运行并协作，即为分布式爬虫。</p>
+
+<p>网站和爬虫各有自己的后台管理系统, 方便于拆分进行分布式部署.</p>
+
+<p>网站部分采用高效的coreseek进行全文索引和分词，大大减少MySQL服务器资源占用，使得网站搜索和访问更加迅速。</p>
+
+<p>程序Web端采用PHP编写，可实现网站、数据库、爬虫等各部件分离，安全系数大大增强，同时可以规避版权问题所带来的风险。懂PHP的站长，还可以还自定义程序模板。</p>
+
+<h1 id="爬取效率">爬取效率</h1>
+
+<p>经实测，我们的爬虫在双核2.4GhzCPU，1G内存，100M共享带宽的日本樱花VPS上，每天可以爬取20万左右不重复资源。更有甚者，一客户的服务器每天可以爬取120-140万不重复资源。爬虫爬取效率主要取决于服务器配置、带宽，目前我们的爬虫效率在同类网站中趋于前列。</p>
+
+<p>必须说明下，同等配置和带宽，国外机房要比国内机房爬取效率高。</p>
+
+<p>目前98%的磁力网站用的是第三方种子库网站，比如迅雷，而迅雷的“接口”总是会变，破解难度较高，也很容易被封杀。当然，实现DHT+BT协议进行爬取的难度更高，这不仅仅需要研究透协议，更重要的是对DHT网络有深刻的理解，不然也不会仅有2%的是DHT爬虫了。</p>
+
+<p>如果您专门为网站部件和爬虫部件各分配一个服务器，速度会快到您无法想象。<a href="http://demo.btspider.cc">我们的演示站</a>专门为网站部件和爬虫部件各分配了一个同等配置的服务器，把爬虫部件所在的服务器榨干50%的情况下，每天保持着20万-25万的速度。PS: 数据越多, 收集速度就慢慢降下来.</p>
+
+    </div>
+  </div>
+  <div id="top"><a id="rocket" href="javascript:;" title="返回顶部"><i></i></a></div>
+  <script src="/res/js/light.js"></script>
+  
+</body>
+</html>

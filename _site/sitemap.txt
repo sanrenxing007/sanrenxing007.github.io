@@ -1,0 +1,20 @@
+
+    http://www.btspider.cc/sitemap.txt
+
+    http://www.btspider.cc/index.html
+
+    http://www.btspider.cc/page/feed.xml
+
+    http://www.btspider.cc/page/category.html
+
+    http://www.btspider.cc/404.html
+
+
+    http://www.btspider.cc/blog/2014/12/06/btspider-admin.html
+
+    http://www.btspider.cc/blog/2014/11/26/btspider-log.html
+
+    http://www.btspider.cc/blog/2014/11/24/btspider-desc.html
+
+    http://www.btspider.cc/blog/2014/11/24/btspider-overview.html
+
